@@ -7,16 +7,17 @@
   <body>
     <div>
       <form action="">
-        <input type="text" placeholder="아이디" class="in" />
-        <input type="password" placeholder="비밀번호" class="in" />
+        <input type="text" placeholder="아이디" class="in" id="LOGIN_ID" />
         <input
-          type="submit"
-          onclick="location.href='index.html'"
-          id="btn"
-          value="로그인"
-        /><br />
+          type="password"
+          placeholder="비밀번호"
+          class="in"
+          id="LOGIN_PW"
+        />
+        <button type="button" id="LOGIN_BTN" disabled>로그인</button><br />
       </form>
-      <a href="#none">비밀번호를 잊어버리셨나요?</a>
+      <a href="./forget_passwd.html">비밀번호를 잊어버리셨나요?</a>
     </div>
+    <script src="./src/login.js" defer=""></script>
   </body>
 </html>

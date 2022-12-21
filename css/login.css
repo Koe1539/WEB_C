@@ -24,15 +24,23 @@ input {
   border-radius: 5px;
   border: none;
 }
+button {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: none;
+}
 
 .in {
   margin-bottom: 10px;
 }
 
-#btn {
-  background-color: #1a1b1c;
+#LOGIN_BTN {
+  background-color: #8b8b8b;
   margin-bottom: 30px;
   color: white;
+  cursor: pointer;
 }
 
 a {
