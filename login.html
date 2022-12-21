@@ -13,8 +13,16 @@
           placeholder="비밀번호"
           class="in"
           id="LOGIN_PW"
+          onkeyup="enterKey()"
         />
-        <button type="button" id="LOGIN_BTN" disabled>로그인</button><br />
+        <button
+          type="button"
+          id="LOGIN_BTN"
+          onkeypress="loginEnter(event)"
+          disabled
+        >
+          로그인</button
+        ><br />
       </form>
       <a href="./forget_passwd.html">비밀번호를 잊어버리셨나요?</a>
     </div>
