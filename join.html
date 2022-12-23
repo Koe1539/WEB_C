@@ -2,7 +2,7 @@
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./css/login.css" />
+    <link rel="stylesheet" href="./css/join.css" />
   </head>
   <body>
     <div>
@@ -13,13 +13,17 @@
           placeholder="비밀번호"
           class="in"
           id="LOGIN_PW"
-          onkeyup="enterKey()"
         />
-        <button type="button" id="LOGIN_BTN" disabled>로그인</button><br />
+        <input
+          type="password"
+          placeholder="비밀번호확인"
+          class="in"
+          id="LOGIN_PW_CH"
+        />
+        <span id="PW_CH_Text"></span>
+        <button type="button" id="LOGIN_BTN" disabled>가입하기</button>
       </form>
-      <a href="./join.html">회원가입</a>
-      <a href="./forget_passwd.html">비밀번호를 잊어버리셨나요?</a>
     </div>
-    <script src="./src/login.js" defer=""></script>
+    <script src="./src/join.js" defer=""></script>
   </body>
 </html>
