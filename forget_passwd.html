@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css/forget_passwd.css" />
+  </head>
+  <body>
+    <div>
+      <form action="">
+        <input type="text" placeholder="아이디" class="in" id="LOGIN_ID" />
+        <input
+          type="password"
+          placeholder="변경할 비밀번호"
+          class="in"
+          id="LOGIN_PW"
+        />
+        <input
+          type="password"
+          placeholder="비밀번호 확인"
+          class="in"
+          id="LOGIN_PW_CH"
+        />
+        <span id="PW_CH_Text"></span>
+        <button type="button" id="LOGIN_BTN" disabled>재설정</button>
+      </form>
+    </div>
+    <script src="./src/forget_passwd.js" defer=""></script>
+  </body>
+</html>
